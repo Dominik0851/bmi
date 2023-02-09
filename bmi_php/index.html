@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BMI</title>
+</head>
+<body>
+    <form class="form1">
+        <div class="gender">
+            <div class="g1">
+            <p>WYBIERZ PŁEĆ:</p>
+            </div>
+            <div class="g1">
+            <input type="radio" id="m" name="gender" value="m">
+            <label for="m">Mężczyzna</label>
+            <input type="radio" id="k" name="gender" value="k">
+            <label for="k">Kobieta</label>
+            </div>
+        </div>
+    </form>
+    <div class="imgs">
+        <img id="ruler" src="ruler.png" height="375px">
+        <img id="man" src="man.svg">
+    </div>
+    <form class="form1">
+        <div class="height">
+            <label for="h">WZROST</label>
+            <input type="range" min="1" max="250" value="183" id="h">
+            <span id="value1"></span>
+        </div>
+        <div class="weight">
+            <label for="w">WAGA</label>
+            <input type="range" min="1" max="350" value="86" id="w">
+            <span id="value2"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" value="TEST BMI">
+        </div>
+    </form>
+    <script src="script.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.form1 {
+    margin-left: 10px;
+}
+
+.g1, {
+    display: inline-block;
+}
+
+.g1, .weight, .height, .submit {
+    margin-top: 10px;
+}
+
+#man {
+    margin-bottom: 20px;
+}
